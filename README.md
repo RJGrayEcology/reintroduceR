@@ -47,5 +47,5 @@ print(result[[3]])  # Plot of logistic growth model
 ```
 
 # Maintainer
-**Maintainer:** Russell J. Gray 
+**Maintainer:** Russell J. Gray <br>
 **Maintainer Email:** rjgrayecology@gmail.com
