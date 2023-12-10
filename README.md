@@ -15,9 +15,9 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 # Install reintroduceR from GitHub
 devtools::install_github("RJGrayEcology/reintroduceR")
 ```
-Functions
-disp_dist
-The disp_dist function uses wildlife tracking data with multiple animal IDs to extract dispersal distances, calculating the release location distance from the centroid of the remaining points.
+# Functions
+## disp_dist
+The **disp_dist** function uses wildlife tracking data with multiple animal IDs to extract dispersal distances, calculating the release location distance from the centroid of the remaining points.
 ```{r}
 Example Usage:
 
@@ -29,9 +29,9 @@ library(reintroduceR)
 
 result <- disp_dist(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime=datetime, crs = st_crs("EPSG:32648"))
 ```
-days_to_settle_mcp
+## days_to_settle_mcp
 
-The days_to_settle_mcp function identifies the average amount of days a series of tracked animals takes on average to settle into their new environment after translocation/reintroduction. It utilizes convex hull updates and logistic growth modeling to simulate settlement.
+The **days_to_settle_mcp** function identifies the average amount of days a series of tracked animals takes on average to settle into their new environment after translocation/reintroduction. It utilizes convex hull updates and logistic growth modeling to simulate settlement.
 
 Example Usage:
 
@@ -46,6 +46,6 @@ print(result[[2]])  # Summary of logistic growth model
 print(result[[3]])  # Plot of logistic growth model
 ```
 
-Maintainer
-Maintainer: Russell J. Gray
-Maintainer Email: rjgrayecology@gmail.com
+# Maintainer
+**Maintainer:** Russell J. Gray 
+**Maintainer Email:** rjgrayecology@gmail.com
