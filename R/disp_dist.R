@@ -9,7 +9,7 @@
 #' @param coords A character vector specifying the columns representing the coordinates (e.g., c("UTM_X", "UTM_Y")).
 #' @param ID A character string specifying the column containing unique animal IDs.
 #' @param DateTime The column containing datetime information. This must be in standardized format class "POSIXct" "POSIXt"
-#' @param crs An object specifying the coordinate reference system (e.g., st_crs("EPSG:32648")). Note all coordinates should be projected in UTM format for metric measurement, not WGS84 latlong.
+#' @param crs An object specifying the coordinate reference system (e.g., "EPSG:32648"). Note all coordinates should be projected in UTM format for metric measurement, not WGS84 latlong.
 #'
 #' @return A data frame with columns \code{ID} and \code{disp_dist} representing animal IDs and dispersal distances, respectively.
 #'
@@ -19,7 +19,7 @@
 #' dat <- read.csv("tracking_data.csv")
 #' meta <- read.csv("meta_data.csv")
 #'
-#' disp_distances <- disp_dist(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime = datetime, crs = st_crs("EPSG:32648"))
+#' disp_distances <- disp_dist(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime = datetime, crs = "EPSG:32648")
 #'
 #' meta <- left_join(meta, disp_distances, by="ID") #note: this uses dplyr function left_join
 #' }
