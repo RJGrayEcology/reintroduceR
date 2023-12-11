@@ -51,4 +51,3 @@ print(result[[3]])  # Plot of logistic growth model
 # Maintainer
 **Maintainer:** Russell J. Gray <br>
 **Maintainer Email:** rjgrayecology@gmail.com
-"A line I wrote on my local computer  " 
