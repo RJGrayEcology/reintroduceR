@@ -1,4 +1,3 @@
-<img src:"https://repository-images.githubusercontent.com/729784409/21e781f7-7c08-4741-9a1f-d70aaafd5d15">
 
 # reintroduceR
 
