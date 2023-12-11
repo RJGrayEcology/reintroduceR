@@ -1,4 +1,4 @@
-![alt text](https://i.ibb.co/4FJ8KgC/reintroduce-R-long.png)
+![alt text](https://i.ibb.co/my6SjkX/reintroduce-R-long-short.png)
 
 # reintroduceR
 
