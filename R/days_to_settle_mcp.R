@@ -6,7 +6,7 @@
 #' @param coords A character vector specifying the columns representing the coordinates (e.g., c("UTM_X", "UTM_Y")).
 #' @param ID A character string specifying the column containing unique animal IDs.
 #' @param DateTime The column containing datetime information. This must be in standardized format class "POSIXct" "POSIXt"
-#' @param crs An object specifying the coordinate reference system (e.g., st_crs("EPSG:32648")). Note all coordinates should be projected in UTM format for metric measurement, not WGS84 latlong.
+#' @param crs An object specifying the coordinate reference system (e.g., "EPSG:32648"). Note all coordinates should be projected in UTM format for metric measurement, not WGS84 latlong.
 #'
 #' @return A list containing three elements:
 #'   \itemize{
@@ -19,7 +19,7 @@
 #' \dontrun{
 #' # Example usage
 #' dat <- read.csv("tracking_data.csv")
-#' result <- days_to_settle_mcp(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime = datetime, crs = st_crs("EPSG:32648"))
+#' result <- days_to_settle_mcp(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime = datetime, crs = "EPSG:32648")
 #'
 #' print(result[[1]])  # sf data frame of the updated convex hull area and days for each animal ID
 #' print(result[[2]])  # summary of the nls model
