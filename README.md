@@ -1,6 +1,6 @@
 # reintroduceR
 
-**reintroduceR** is an R package designed to support conservationists in planning and adapting wildlife reintroductions based on results extracted from movement ecology data and other post-monitoring data sets.
+**reintroduceR** is an R package designed to support conservationists in planning and adapting wildlife reintroductions based on results extracted from movement ecology data and other post-monitoring data sets. Note that all functions assume a series of data with unique animal IDs identifying multiple reintroduced animals of the same species. The functions are not meant for the analysis for multiple species at once, since the associated metrics may vary from species to species.
 
 ## Installation
 
@@ -27,7 +27,7 @@ library(reintroduceR)
 
 # Assuming you have a dataframe 'dat' with tracking data, which includes X and Y coordinates in UTM projection, a column with animal IDs, and a date/time column in standard format (using asPosixCT or anytime functions, for exaple)
 
-result <- disp_dist(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime=datetime, crs = st_crs("EPSG:32648"))
+result <- disp_dist(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime=datetime, crs = "EPSG:32648")
 ```
 ## days_to_settle_mcp
 
@@ -40,7 +40,7 @@ library(reintroduceR)
 
 # Assuming you have a dataframe 'dat' with tracking data, which includes X and Y coordinates in UTM projection, a column with animal IDs, and a date/time column in standard format (using asPosixCT or anytime functions, for exaple)
 
-result <- days_to_settle_mcp(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime = datetime, crs = st_crs("EPSG:32648"))
+result <- days_to_settle_mcp(dat, coords = c("UTM_X", "UTM_Y"), ID = "ID", DateTime = datetime, crs = "EPSG:32648")
 print(result[[1]])  # MCP data
 print(result[[2]])  # Summary of logistic growth model
 print(result[[3]])  # Plot of logistic growth model
