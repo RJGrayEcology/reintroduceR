@@ -1,5 +1,8 @@
 ![alt text](https://i.ibb.co/my6SjkX/reintroduce-R-long-short.png)
 
+### Note: Please don't use the package yet, its still under construction!!!
+
+
 # reintroduceR
 
 **reintroduceR** is an R package designed to support conservationists in planning and adapting wildlife reintroductions based on results extracted from movement ecology data and other post-monitoring data sets. Note that all functions assume a series of data with unique animal IDs identifying multiple reintroduced animals of the same species. The functions are not meant for the analysis for multiple species at once, since the associated metrics may vary from species to species.
