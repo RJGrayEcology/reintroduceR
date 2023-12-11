@@ -1,4 +1,4 @@
-![alt text]([http://url/to/img.png](https://i.ibb.co/4FJ8KgC/reintroduce-R-long.png))
+![Alt text](https://ibb.co/Mg9cZ5K)
 
 # reintroduceR
 
