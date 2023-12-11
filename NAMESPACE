@@ -1,14 +1,14 @@
 # NAMESPACE
 # Specify dependencies
 import(sf)
-import(tidyverse)
+import(dplyr)
 import(progress)
 import(ggplot2)
 import(stats)
 
 # Explicitly import functions from dependencies if needed
 importFrom(sf, st_as_sf, st_crs, st_distance, st_is_valid, st_area, st_combine, st_convex_hull, st_coordinates)
-importFrom(tidyverse, group_by, arrange, summarize, mutate, filter, left_join)
+importFrom(dplyr, group_by, arrange, summarize, mutate, filter, left_join)
 importFrom(progress, progress_bar)
 importFrom(ggplot2, ggplot, geom_line, geom_hline, geom_vline, geom_text, labs, theme_bw)
 importFrom(stats, nls, coef, predict)
