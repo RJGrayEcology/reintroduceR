@@ -1,6 +1,6 @@
-![alt text](https://imgur.com/zWHQhuU)
+![alt text]([https://imgur.com/zWHQhuU](https://imgur.com/a/gXJtmMu))
 
-### Note: Please don't use the package yet, its still under construction!!!
+### Note: Package is still under construction!
 
 
 # reintroduceR
