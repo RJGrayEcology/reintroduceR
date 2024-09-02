@@ -1,4 +1,4 @@
-![alt text](https://imgur.com/zWHQhuU)
+![alt text][Imgur](https://imgur.com/zWHQhuU)
 
 ### Note: Package is still under construction!
 
