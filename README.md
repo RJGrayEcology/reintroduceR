@@ -1,4 +1,4 @@
-![alt text]([https://imgur.com/zWHQhuU](https://imgur.com/a/gXJtmMu))
+![alt text](https://imgur.com/a/gXJtmMu)
 
 ### Note: Package is still under construction!
 
