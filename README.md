@@ -1,4 +1,4 @@
-![alt text](https://i.ibb.co/my6SjkX/reintroduce-R-long-short.png)
+![alt text](https://imgur.com/zWHQhuU)
 
 ### Note: Please don't use the package yet, its still under construction!!!
 
